@@ -1,17 +1,16 @@
 // src/pages/Home.jsx
 
 import Hero from "../components/Hero";
-import Intro from "../components/Intro";
-import FeaturedProjects from "../components/FeaturedProjects";
-import ContactCTA from "../components/ContactCTA";
+import TechnologyCarousel from "../components/TechnologyCarousel";
+import ReferenceCarousel from "../components/ReferenceCarousel";
 
 function Home() {
   return (
     <>
       <Hero />
-      {/* <Intro />
-      <FeaturedProjects />
-      //<ContactCTA /> */}
+      <TechnologyCarousel />
+      <ReferenceCarousel />
+
     </>
   );
 }

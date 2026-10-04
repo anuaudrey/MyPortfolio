@@ -1,3 +1,13 @@
+// Author: Audrey Anulegeh
+// lastly modified: 3 October 2026
+// Description: This file contains the portfolio data for the website, including personal information, navigation links, projects, services, testimonials, and technologies. It imports various images and documents used throughout the portfolio.
+
+//images/icons credits: I acknowledge that icons sued in this portfolio website are sourced from Flaticon (https://www.flaticon.com/) and are used under the Creative Commons Attribution 3.0 Unported (CC BY 3.0) license. 
+//images used in the services section of the portfolio was gotten from pinterest.com.
+//all other images used in this portfolio website icluding my logo and all my project logos are created by me, Audrey Anulegeh, and are original works.
+
+//some data in this file are not real and are used for demonstration purposes only.
+
 import logo from "../assets/images/logo.png";
 import profile from "../assets/images/profile.png";
 import hopelink from "../assets/images/hopelink.png";
@@ -7,6 +17,14 @@ import frontend from "../assets/images/frontend.png";
 import fullStack from "../assets/images/fullStack.png";
 import ui from "../assets/images/ui.png";
 import bdd from "../assets/images/bdd.png"; 
+import html from "../assets/images/html.png";
+import css from "../assets/images/css.png";
+import javascript from "../assets/images/js.png";
+import react from "../assets/images/react.png";
+import python from "../assets/images/python.png";
+import csharp from "../assets/images/cSharp.png";
+import cpp from "../assets/images/cpp.png";
+import sql from "../assets/images/sql.png"; 
 import resume from "../assets/documents/resume.pdf";
 
 const portfolioData = {
@@ -128,63 +146,46 @@ const portfolioData = {
   {
     id: 1,
     name: "HTML",
-    icon: htmlIcon,
+    icon: html,
   },
   {
     id: 2,
     name: "CSS",
-    icon: cssIcon,
+    icon: css,
   },
   {
     id: 3,
     name: "JavaScript",
-    icon: javascriptIcon,
+    icon: javascript,
   },
   {
     id: 4,
     name: "React",
-    icon: reactIcon,
+    icon: react,
   },
+
   {
     id: 5,
-    name: "Next.js",
-    icon: nextjsIcon,
+    name: "Python",
+    icon: python,
   },
   {
     id: 6,
-    name: "Python",
-    icon: pythonIcon,
+    name: "C#",
+    icon: csharp,
   },
   {
     id: 7,
-    name: "C#",
-    icon: csharpIcon,
+    name: "C++",
+    icon: cpp,
   },
   {
     id: 8,
-    name: "C++",
-    icon: cppIcon,
-  },
-  {
-    id: 9,
     name: "SQL",
-    icon: sqlIcon,
+    icon: sql,
   },
-  {
-    id: 10,
-    name: "Git",
-    icon: gitIcon,
-  },
-  {
-    id: 11,
-    name: "Postman",
-    icon: postmanIcon,
-  },
-  {
-    id: 12,
-    name: "Tailwind CSS",
-    icon: tailwindIcon,
-  },
+ 
+
   ],
 };
 

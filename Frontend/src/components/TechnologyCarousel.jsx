@@ -1,3 +1,10 @@
+/*
+ * Author: Audrey Anulegeh
+ * lastly modified: 3 October 2026
+ *
+ * Description:
+ * This is a reusable technology carousel component that displays a horizontal scrolling list of technologies I work with. Each technology is represented by its icon and name.
+ */
 import portfolioData from "../data/portfolioData";
 
 export default function TechnologyCarousel() {

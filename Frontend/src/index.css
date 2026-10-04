@@ -20,3 +20,21 @@ body {
   background: #b68f86;
   color: white;
 }
+/* This is the css for the technology carousel  */
+.technology-track {
+  animation: technology-scroll 10s linear infinite;
+}
+
+.technology-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes technology-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
