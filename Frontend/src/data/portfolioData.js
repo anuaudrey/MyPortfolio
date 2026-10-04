@@ -59,6 +59,7 @@ const portfolioData = {
     { label: "Services", path: "/services" },
     { label: "References", path: "/references" },
     { label: "Contact", path: "/contact" },
+    { label: "Not Found", path: "*" }
   ],
 
   projects: [
