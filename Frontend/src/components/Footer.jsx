@@ -13,7 +13,7 @@
 
 import { Link } from "react-router-dom";
 import portfolioData from "../data/portfolioData";
-import logo from "../assets/images/Logo.png";
+import logo from "../assets/images/logo.png";
 import github from "../assets/images/github.png";
 import linkedin from "../assets/images/linkedin.png";
 

@@ -15,7 +15,7 @@ import realtor from "../assets/images/realtor.png";
 import retailDatabase from "../assets/images/retailDatabase.png";
 import frontend from "../assets/images/frontend.png";
 import fullStack from "../assets/images/fullStack.png";
-import ui from "../assets/images/ui.png";
+import ui from "../assets/images/Ui.png";
 import bdd from "../assets/images/bdd.png"; 
 import html from "../assets/images/html.png";
 import css from "../assets/images/css.png";

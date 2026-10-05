@@ -15,7 +15,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import portfolioData from "../data/portfolioData";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/logo.png";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
