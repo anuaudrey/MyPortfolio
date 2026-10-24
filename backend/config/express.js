@@ -4,7 +4,7 @@ var logger = require('morgan');
 var cors = require('cors');
 
 // Import the routers
-//var indexRouter = require('../app/routers/index');
+var indexRouter = require('../app/routers/index');
 var projectsRouter = require('../app/routers/projects');
 var referencesRouter = require('../app/routers/references');
 var servicesRouter = require('../app/routers/services');
