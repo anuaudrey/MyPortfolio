@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Routers
-//app.use('/', indexRouter);
+app.use('/', indexRouter);
 app.use('/api/projects', projectsRouter);
 app.use('/api/references', referencesRouter);
 app.use('/api/services', servicesRouter);
